@@ -1,0 +1,26 @@
+{
+  "name": "nyc-include-gist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc --require ./tools/require-extensions/hbs.js --include ./lib/ node lib/file1.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gist.github.com/5b37fcb151a87e138fd3e92daba78945.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gist.github.com/5b37fcb151a87e138fd3e92daba78945"
+  },
+  "homepage": "https://gist.github.com/5b37fcb151a87e138fd3e92daba78945",
+  "devDependencies": {
+    "hbsfy": "^2.7.0",
+    "nyc": "^6.4.0"
+  },
+  "dependencies": {
+    "handlebars": "^4.0.5"
+  }
+}
